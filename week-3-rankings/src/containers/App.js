@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './App.css';
 import Teams from '../components/Teams/Teams';
+import { render } from 'react-dom';
+import Typed from 'react-typed';
 
 export default class App extends Component {
 
@@ -94,7 +96,16 @@ export default class App extends Component {
       <div className="App">
         <div className="Heading">
           <h1>HHS Fantasy: Week 3 Power Rankings</h1>
-          <h2>Infectious Disease Edition</h2>
+          <h2> 
+            <Typed
+              strings={['Infectious Disease Edition']}
+              startDelay={1000}
+              typeSpeed={40}
+              backDelay={4000}
+              backSpeed={20}
+              loop
+            />
+          </h2>
         </div>
        <ul>
        <Teams teams={this.state.teams}/>
