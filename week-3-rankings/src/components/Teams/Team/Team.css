@@ -1,0 +1,22 @@
+.Team {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: left;
+  padding: 2rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  background-image: linear-gradient(to right, rgba(255,0,0,.3), rgba(255,0,0,1));
+  color: white;
+}
+
+.team-ranking {
+  font-size: 75px;
+  padding-right: 50px;
+  color: darkblue;
+}
+
+.team-details {
+  color: white;
+}

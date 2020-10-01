@@ -1,0 +1,12 @@
+.App {
+  background-color: #787878;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  text-align: center;
+  padding: 3rem 7rem;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px 0;
+}
