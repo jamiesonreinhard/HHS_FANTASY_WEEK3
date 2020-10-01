@@ -11,6 +11,14 @@
   padding: 0 0 3rem 0;
 }
 
+.Heading h2 {
+  color: red;
+  background-color: white;
+  display: inline;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 ul {
   list-style: none;
   padding: 0;

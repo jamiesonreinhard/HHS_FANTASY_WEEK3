@@ -104,6 +104,7 @@ export default class App extends Component {
               backDelay={4000}
               backSpeed={20}
               loop
+              showCursor={true}
             />
           </h2>
         </div>
