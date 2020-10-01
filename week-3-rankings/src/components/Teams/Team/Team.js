@@ -9,7 +9,7 @@ export default class Team extends Component {
           <h1 className="team-ranking"><em>#{this.props.ranking}</em></h1>
         </div>
         <div classname="team-details">
-          <h3>{this.props.name}</h3>
+          <h2>{this.props.name}</h2>
           <p>{this.props.description}</p>
         </div>
       </div>
